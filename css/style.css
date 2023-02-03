@@ -11,6 +11,7 @@ h1{
 
 p{
     font-size: 20px;
+    font-style: italic;
 }
 
 .centered-wrapper{
@@ -28,6 +29,13 @@ p{
     width: 350px;
     text-align: left;
     margin: 0 auto;
+}
+.millieon{
+    position: relative;
+    width: 350px;
+    text-align: left;
+    margin: 0 auto;
+    
 }
 .title a{
     position: absolute;
