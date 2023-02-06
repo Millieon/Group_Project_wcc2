@@ -6,8 +6,21 @@ body{
 }
 
 h1{
-    font-size: 30px;
+    font-size: 150px;
+    font-weight: 400;
+
 }
+
+h2{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+
 
 p{
     font-size: 20px;
@@ -25,6 +38,14 @@ p1{
     margin: 0 auto;
     text-align: center;
     padding-top: 200px;
+}
+
+.centered-wrapper-2{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: normal;
+    /* padding-top: 200px; */
 }
 
 /* When giving a child element position absolute you should give the parent position value as well */
@@ -50,6 +71,19 @@ p1{
     margin: 0 auto;
     
 }
+
+.chinese{
+    color:rgb(255, 115, 115);    
+}
+
+.taiwanese{
+    color:rgb(75, 140, 245); 
+}
+
+.gray{
+    color:darkgrey;
+}
+
 .title a{
     position: absolute;
 }
